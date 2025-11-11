@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divya Portfolio</title>
+  <link rel="stylesheet" href="myport.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- **heading, navlist, btn, sidebar** -->
+  <header class="header">
+    <!-- Navigation Bar-->
+    <nav id="navbar">
+
+      <div class="menubtn">
+        <div class="logo">Divya Joshi</div>
+      </div>
+
+      <div class="nav-list">
+        <ul>
+          <li><a href="#hero-section">Home</a></li>
+          <li><a href="#about-section">About</a> </li>
+          <li><a href="#my-project">Project</a></li>
+          <li><a href="#my-project">Services</a></li>
+          <li><a href="#contact-form">Contact Me</a></li>
+
+        </ul>
+      </div>
+
+      <i class="fa-solid fa-bars" onclick="topbar()"></i>
+    </nav>
+
+
+    <!-- **************sidebar******************* -->
+    <nav id="sidebar">
+      <div class="sidehead">
+        <div class="logo">Divya Joshi</div>
+        <i class="fa-solid fa-x" onclick="topbar()"></i>
+      </div>
+      <hr>
+
+      <ul>
+        <li><a href="#hero-section">Home</a></li>
+        <li><a href="#about-section">About</a> </li>
+        <li><a href="#my-project">Project</a></li>
+        <li><a href="#contact-form">Contact Me</a></li>
+      </ul>
+    </nav>
+
+
+  </header>
+
+  <!--Hero Section-->
+  <!-- *hero-section, hero-contant, resume-btn and image* -->
+  <main>
+    <section class="hero-section" id="hero-section">
+      <div class="hero-contant">
+        <p class="welcome">WELCOME TO MY WORLD</p>
+        <h3>My Name Is Divya Joshi</h3>
+        <h1>I'm A Full Stack Web Developer, From Bhilai-Durg.</h1>
+        <p class="description">"I design websites with attractive and user-friendly interfaces."</p>
+        <div class="buttons">
+          <a href="project/divya resume..pdf">Resume</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="image/girlslogo.png" alt="Designer Photo">
+      </div>
+    </section>
+
+
+    <!-- About-section -->
+    <section class="about-section" id="about-section">
+
+      <h2>About</h2>
+      <p>
+        Hello! I'm <strong>Divya Joshi</strong>, a passionate and dedicated <strong>Full Stack Web Developer</strong>
+        based in <strong>Bhilai-Durg, Chhattisgarh</strong>.
+        I hold a <strong>Master’s degree in Computer Science (M.Sc. CS)</strong> and I love building web experiences
+        that are both functional and visually appealing.
+        I focus on delivering clean, scalable, and efficient solutions using the latest web technologies.
+      </p><br>
+      <h3>🎯 My Goal</h3>
+      <p>
+        My goal is to join a dynamic tech team where I can learn, grow, and contribute meaningfully.
+        I’m always open to new opportunities, collaborative projects, and creative challenges that help me enhance user
+        experience through technology.
+      </p>
+
+    </section>
+
+
+
+    <!-- skills-->
+    <section class="skill-section">
+      <h2>My Skills</h2>
+      <div class="skill-container">
+        <!-- skill will be insert by json -->
+      </div>
+    </section>
+
+    <!-- MY PROJECT -->
+    <section class="my-project" id="my-project">
+      <h2>About This Project</h2>
+      <p>I'm <strong>Divya Joshi</strong>, a <strong>HTML, CSS, and JavaScript</strong>, where data is fetched from a
+        <strong>public data API</strong> (simulated with a fake API).
+        The project dynamically generates responsive cards that display project details in a clean and user-friendly
+        layout.
+      </p>
+      <br>
+      <div class="project-container">
+        <div class="project-card">
+          <img src="image/project1.jpg" alt="Project 1">
+          <h3>Weather App</h3>
+          <p>Get real-time weather info using a public weather API. Fully responsive design.</p>
+          <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="image/project2.jpg" alt="Project 2">
+          <h3>To-Do App</h3>
+          <p>A simple and clean to-do list app with full CRUD functionality using JavaScript.</p>
+          <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="image/project3.jpg" alt="Project 3">
+          <h3>Portfolio Website</h3>
+          <p>This personal website is built with HTML, CSS, and a bit of JavaScript.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT FORM -->
+    <section class="contact-form" id="contact-form">
+      <h2>Contact Me</h2>
+      <form>
+        <div>
+          <label id="name" for="userName">Name:</label>
+          <input type="text" id="userName" placeholder="Enter Your Name">
+        </div>
+        <div>
+          <label id="email" for="email">Email:</label>
+          <input type="email" placeholder="Enter Your Email">
+        </div>
+        <div>
+          <label id="massage" for="massage">Your Massage:</label>
+          <textarea rows="5" cols="11" id="massage" placeholder="Enter your Message"></textarea>
+        </div>
+        <button type="submit">Send Message:</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Connect With Me</p>
+
+    <a href="" target="_blank"><i class="fa-brands fa-github"></i>github</a>
+    <a href="" target="_blank"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+    <a href="" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
+    <a href="" target="_blank"><i class="fa-brands fa-facebook"></i>facebook</a>
+  </footer>
+
+  <script src="port.js"></script>
+</body>
+
+</html>

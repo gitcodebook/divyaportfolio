@@ -1,0 +1,40 @@
+{
+    "skills": [
+        {
+            "Name": "HTML",
+            "Icon": "image/html.png",
+            "Level": "Advanced",
+            "Category": "Frontend"
+        },
+        {
+            "Name": "CSS",
+            "Icon": "image/css-3.png",
+            "Level": "Advanced",
+            "Category": "Frontend"
+        },
+        {
+            "Name": "JavaScript",
+            "Icon": "image/js.png",
+            "Level": "Advanced",
+            "Category": "Frontend"
+        },
+        {
+            "Name": "React",
+            "Icon": "image/react.png",
+            "Level": "Advanced",
+            "Category": "Frontend"
+        },
+        {
+            "Name": "Node.js",
+            "Icon": "image/nodejs.png",
+            "Level": "Intermediate",
+            "Category": "Backend"
+        },
+        {
+            "Name": "MongoDB",
+            "Icon": "image/data-server.png",
+            "Level": "Beginner",
+            "Category": "Backend"
+        }
+    ]
+}
